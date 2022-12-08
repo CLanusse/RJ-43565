@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Conrado Lanusse the best
         </p>
         <a
           className="App-link"
@@ -15,9 +15,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Bienvenidos a React en Coder
         </a>
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
+
+      <section className="miclase">
+        Hola mundo
+      </section>
     </div>
   );
 }
