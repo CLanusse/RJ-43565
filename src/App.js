@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Listado } from './Listado'
+import { Seccion } from './Seccion'
 
 function App() {
 
+  const nombre = 'Conrado Lanusse'
+  const estilo = {color: 'red', fontSize: '20px', fontWeight: 700}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Conrado Lanusse the best
+      <header id="header" className="App-header">
+        <p style={estilo}>
+          { nombre }
         </p>
+        <br></br>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,12 +23,11 @@ function App() {
         >
           Bienvenidos a React en Coder
         </a>
+        
         <img src={logo} className="App-logo" alt="logo" />
       </header>
 
-      <section className="miclase">
-        Hola mundo
-      </section>
+      <Seccion />
     </div>
   );
 }
