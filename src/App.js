@@ -1,33 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import { Listado } from './Listado'
-import { Seccion } from './Seccion'
+import { Navbar } from "./components/Navbar/Navbar";
+import { Usuario } from "./components/Usuario/Usuario";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Contenedor from "./components/Contenedor/Contenedor";
+import MyButton from "./ejemplos/MyButton/MyButton";
 
 function App() {
 
-  const nombre = 'Conrado Lanusse'
-  const estilo = {color: 'red', fontSize: '20px', fontWeight: 700}
-
   return (
-    <div className="App">
-      <header id="header" className="App-header">
-        <p style={estilo}>
-          { nombre }
-        </p>
-        <br></br>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bienvenidos a React en Coder
-        </a>
-        
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <Navbar />
 
-      <Seccion />
+      <Contenedor>
+        <Usuario nombre="John DOe" curso="ReactJS" edad="22"/>
+
+        <MyButton variant={2} className="otra-clase">
+          Clickeame!
+          <small>dale, enserio</small>
+        </MyButton>
+      </Contenedor>
     </div>
   );
 }
