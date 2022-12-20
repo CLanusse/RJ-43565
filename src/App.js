@@ -1,23 +1,24 @@
 import { Navbar } from "./components/Navbar/Navbar";
-import { Usuario } from "./components/Usuario/Usuario";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contenedor from "./components/Contenedor/Contenedor";
-import MyButton from "./ejemplos/MyButton/MyButton";
+import Clicker from "./ejemplos/Clicker/Clicker";
+import { useState } from "react";
 
 function App() {
+
+  const [show, setShow] = useState(true)
+
+  const handleShow = () => {
+    setShow(!show)
+  }
 
   return (
     <div>
       <Navbar />
 
-      <Contenedor>
-        <Usuario nombre="John DOe" curso="ReactJS" edad="22"/>
+      <button onClick={handleShow}>show</button>
 
-        <MyButton variant={2} className="otra-clase">
-          Clickeame!
-          <small>dale, enserio</small>
-        </MyButton>
-      </Contenedor>
+      { show && <Clicker />}
+      
     </div>
   );
 }
