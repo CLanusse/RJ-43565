@@ -1,31 +1,24 @@
 import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
 import { pedirItemPorId } from "../../helpers/pedirDatos"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
-const ItemDetailContainer = ({itemId}) => {
+const ItemDetailContainer = () => {
 
     const [item, setItem] = useState(null)
-    const [error, setError] = useState(null)
-    console.log(item)
+    const { itemId } = useParams()
 
     useEffect(() => {
-        setError(null)
-
-        pedirItemPorId(itemId)
+        pedirItemPorId( Number(itemId) )
             .then((data) => {
                 setItem(data)
-            })
-            .catch((err) => {
-                setError(err.error)
             })
     }, [itemId])
 
     return (
         <div className="container my-5">
             {
-                error 
-                    ? error 
-                    : item && <ItemDetail {...item}/>
+                item && <ItemDetail {...item}/>
             }
         </div>
     )
