@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "name": "Nut - Walnut, Chopped",
     "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -6,7 +7,8 @@
     "price": 8346,
     "stock": 10,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 2,
     "name": "Vermacelli - Sprinkles, Assorted",
     "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -14,7 +16,8 @@
     "price": 913,
     "stock": 71,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 3,
     "name": "Sauce - Cranberry",
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -22,7 +25,8 @@
     "price": 16177,
     "stock": 38,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 4,
     "name": "Syrup - Golden, Lyles",
     "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
@@ -30,7 +34,8 @@
     "price": 2129,
     "stock": 95,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 5,
     "name": "Pepper - Black, Crushed",
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -38,7 +43,8 @@
     "price": 2511,
     "stock": 19,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 6,
     "name": "Black Currants",
     "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -46,7 +52,8 @@
     "price": 16797,
     "stock": 67,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 7,
     "name": "Pork - Liver",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -54,7 +61,8 @@
     "price": 3488,
     "stock": 73,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 8,
     "name": "Cocktail Napkin Blue",
     "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -62,7 +70,8 @@
     "price": 11853,
     "stock": 35,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 9,
     "name": "Crackers - Graham",
     "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -70,7 +79,8 @@
     "price": 17841,
     "stock": 46,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 10,
     "name": "Cheese - Grie Des Champ",
     "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -78,7 +88,8 @@
     "price": 13028,
     "stock": 70,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 11,
     "name": "Eggplant - Baby",
     "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -86,7 +97,8 @@
     "price": 10835,
     "stock": 30,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 12,
     "name": "Soup V8 Roasted Red Pepper",
     "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -94,7 +106,8 @@
     "price": 18078,
     "stock": 47,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 13,
     "name": "Bowl 12 Oz - Showcase 92012",
     "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -102,7 +115,8 @@
     "price": 9062,
     "stock": 35,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 14,
     "name": "Bay Leaf Fresh",
     "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -110,7 +124,8 @@
     "price": 12529,
     "stock": 32,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 15,
     "name": "Cabbage - Savoy",
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -118,7 +133,8 @@
     "price": 16573,
     "stock": 53,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 16,
     "name": "Pork - Sausage Casing",
     "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -126,7 +142,8 @@
     "price": 1659,
     "stock": 42,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 17,
     "name": "Wine - Bourgogne 2002, La",
     "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -134,7 +151,8 @@
     "price": 13752,
     "stock": 13,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 18,
     "name": "Persimmons",
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -142,7 +160,8 @@
     "price": 2627,
     "stock": 81,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 19,
     "name": "Limes",
     "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -150,7 +169,8 @@
     "price": 11707,
     "stock": 93,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 20,
     "name": "Soup - Campbells Chicken",
     "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
@@ -158,7 +178,8 @@
     "price": 10716,
     "stock": 77,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 21,
     "name": "Jameson Irish Whiskey",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -166,7 +187,8 @@
     "price": 10264,
     "stock": 12,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 22,
     "name": "Cake - Pancake",
     "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -174,7 +196,8 @@
     "price": 13793,
     "stock": 68,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 23,
     "name": "Chef Hat 25cm",
     "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -182,7 +205,8 @@
     "price": 973,
     "stock": 74,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 24,
     "name": "Jack Daniels",
     "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -190,7 +214,8 @@
     "price": 6625,
     "stock": 94,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 25,
     "name": "Pernod",
     "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -198,7 +223,8 @@
     "price": 18709,
     "stock": 35,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 26,
     "name": "Pork - Shoulder",
     "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -206,7 +232,8 @@
     "price": 19297,
     "stock": 80,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 27,
     "name": "Olive - Spread Tapenade",
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -214,7 +241,8 @@
     "price": 9398,
     "stock": 26,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 28,
     "name": "Russian Prince",
     "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -222,7 +250,8 @@
     "price": 251,
     "stock": 81,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 29,
     "name": "Eggroll",
     "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
@@ -230,7 +259,8 @@
     "price": 10866,
     "stock": 79,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 30,
     "name": "Beets - Mini Golden",
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -238,7 +268,8 @@
     "price": 13782,
     "stock": 68,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 31,
     "name": "Potatoes - Mini Red",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -246,7 +277,8 @@
     "price": 761,
     "stock": 98,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 32,
     "name": "Milk 2% 500 Ml",
     "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -254,7 +286,8 @@
     "price": 16535,
     "stock": 30,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 33,
     "name": "True - Vue Containers",
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
@@ -262,7 +295,8 @@
     "price": 11238,
     "stock": 63,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 34,
     "name": "Mahi Mahi",
     "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -270,7 +304,8 @@
     "price": 4442,
     "stock": 45,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 35,
     "name": "Sour Puss Sour Apple",
     "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -278,7 +313,8 @@
     "price": 13177,
     "stock": 54,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 36,
     "name": "Raisin - Golden",
     "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -286,7 +322,8 @@
     "price": 8233,
     "stock": 85,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 37,
     "name": "Sping Loaded Cup Dispenser",
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -294,7 +331,8 @@
     "price": 13871,
     "stock": 18,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 38,
     "name": "Lamb - Shanks",
     "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -302,7 +340,8 @@
     "price": 700,
     "stock": 81,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 39,
     "name": "Scallops - U - 10",
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -310,7 +349,8 @@
     "price": 12840,
     "stock": 24,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 40,
     "name": "Dome Lid Clear P92008h",
     "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -318,7 +358,8 @@
     "price": 336,
     "stock": 81,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 41,
     "name": "Bread - Roll, Whole Wheat",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -326,7 +367,8 @@
     "price": 19465,
     "stock": 0,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 42,
     "name": "Beef - Ox Tail, Frozen",
     "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -334,7 +376,8 @@
     "price": 4051,
     "stock": 35,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 43,
     "name": "Horseradish - Prepared",
     "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -342,7 +385,8 @@
     "price": 1099,
     "stock": 25,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 44,
     "name": "Jicama",
     "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -350,7 +394,8 @@
     "price": 18663,
     "stock": 19,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 45,
     "name": "Ice Cream - Strawberry",
     "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -358,7 +403,8 @@
     "price": 14193,
     "stock": 100,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 46,
     "name": "Sobe - Green Tea",
     "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -366,7 +412,8 @@
     "price": 11638,
     "stock": 98,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 47,
     "name": "Avocado",
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -374,7 +421,8 @@
     "price": 11897,
     "stock": 99,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 48,
     "name": "Yogurt - Strawberry, 175 Gr",
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -382,7 +430,8 @@
     "price": 18166,
     "stock": 51,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 49,
     "name": "Nut - Almond, Blanched, Whole",
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -390,7 +439,8 @@
     "price": 13013,
     "stock": 36,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 50,
     "name": "Crawfish",
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -398,7 +448,8 @@
     "price": 17430,
     "stock": 55,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 51,
     "name": "Wine - Vouvray Cuvee Domaine",
     "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
@@ -406,7 +457,8 @@
     "price": 3255,
     "stock": 64,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 52,
     "name": "Lobster - Tail 6 Oz",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -414,7 +466,8 @@
     "price": 16666,
     "stock": 9,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 53,
     "name": "Buffalo - Short Rib Fresh",
     "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -422,7 +475,8 @@
     "price": 1131,
     "stock": 49,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 54,
     "name": "Wine - Mas Chicet Rose, Vintage",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -430,7 +484,8 @@
     "price": 19003,
     "stock": 76,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 55,
     "name": "Sauce - Caesar Dressing",
     "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -438,7 +493,8 @@
     "price": 11585,
     "stock": 76,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 56,
     "name": "Rum - Dark, Bacardi, Black",
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -446,7 +502,8 @@
     "price": 9018,
     "stock": 68,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 57,
     "name": "Salmon - Atlantic, Skin On",
     "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -454,7 +511,8 @@
     "price": 19318,
     "stock": 52,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 58,
     "name": "Pasta - Elbows, Macaroni, Dry",
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -462,7 +520,8 @@
     "price": 18706,
     "stock": 7,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 59,
     "name": "Bok Choy - Baby",
     "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -470,7 +529,8 @@
     "price": 18385,
     "stock": 97,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 60,
     "name": "Sugar - Palm",
     "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -478,7 +538,8 @@
     "price": 385,
     "stock": 59,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 61,
     "name": "Lumpfish Black",
     "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -486,7 +547,8 @@
     "price": 6804,
     "stock": 66,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 62,
     "name": "Wine - Pinot Noir Stoneleigh",
     "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -494,7 +556,8 @@
     "price": 4063,
     "stock": 54,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 63,
     "name": "Wine - Jackson Triggs Okonagan",
     "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -502,7 +565,8 @@
     "price": 2026,
     "stock": 93,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 64,
     "name": "Icecream - Dibs",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -510,7 +574,8 @@
     "price": 18023,
     "stock": 87,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 65,
     "name": "Cheese - Montery Jack",
     "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -518,7 +583,8 @@
     "price": 9514,
     "stock": 18,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 66,
     "name": "Table Cloth 54x54 White",
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -526,7 +592,8 @@
     "price": 7817,
     "stock": 45,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 67,
     "name": "Green Scrubbie Pad H.duty",
     "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -534,7 +601,8 @@
     "price": 15298,
     "stock": 86,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 68,
     "name": "Salmon - Whole, 4 - 6 Pounds",
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -542,7 +610,8 @@
     "price": 6493,
     "stock": 71,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 69,
     "name": "Pineapple - Regular",
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -550,7 +619,8 @@
     "price": 19219,
     "stock": 5,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 70,
     "name": "Wine - Magnotta, White",
     "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -558,7 +628,8 @@
     "price": 9173,
     "stock": 75,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 71,
     "name": "Onions - Dried, Chopped",
     "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -566,7 +637,8 @@
     "price": 9122,
     "stock": 20,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 72,
     "name": "Icecream - Dstk Super Cone",
     "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -574,7 +646,8 @@
     "price": 16768,
     "stock": 83,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 73,
     "name": "Tabasco Sauce, 2 Oz",
     "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -582,7 +655,8 @@
     "price": 8751,
     "stock": 67,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 74,
     "name": "Ecolab - Orange Frc, Cleaner",
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -590,7 +664,8 @@
     "price": 5528,
     "stock": 24,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 75,
     "name": "Towels - Paper / Kraft",
     "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -598,7 +673,8 @@
     "price": 8171,
     "stock": 91,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 76,
     "name": "Wine - White, Antinore Orvieto",
     "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -606,7 +682,8 @@
     "price": 8202,
     "stock": 40,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 77,
     "name": "Ecolab - Ster Bac",
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -614,7 +691,8 @@
     "price": 11258,
     "stock": 47,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 78,
     "name": "Syrup - Monin, Swiss Choclate",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -622,7 +700,8 @@
     "price": 2855,
     "stock": 19,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 79,
     "name": "Cheese - Brick With Pepper",
     "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -630,7 +709,8 @@
     "price": 2422,
     "stock": 19,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 80,
     "name": "Beer - Paulaner Hefeweisse",
     "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -638,7 +718,8 @@
     "price": 752,
     "stock": 84,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 81,
     "name": "Energy Drink Red Bull",
     "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -646,7 +727,8 @@
     "price": 13039,
     "stock": 73,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 82,
     "name": "Crackers - Soda / Saltins",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -654,7 +736,8 @@
     "price": 16679,
     "stock": 66,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 83,
     "name": "Pate - Peppercorn",
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -662,7 +745,8 @@
     "price": 6975,
     "stock": 45,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 84,
     "name": "Container - Foam Dixie 12 Oz",
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -670,7 +754,8 @@
     "price": 14391,
     "stock": 47,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 85,
     "name": "Sansho Powder",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -678,7 +763,8 @@
     "price": 3787,
     "stock": 94,
     "category": "verduleria"
-  }, {
+  },
+  {
     "id": 86,
     "name": "Papayas",
     "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -686,7 +772,8 @@
     "price": 8677,
     "stock": 43,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 87,
     "name": "Bread Ww Cluster",
     "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
@@ -694,7 +781,8 @@
     "price": 18326,
     "stock": 36,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 88,
     "name": "Sproutsmustard Cress",
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -702,7 +790,8 @@
     "price": 15859,
     "stock": 26,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 89,
     "name": "Phyllo Dough",
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -710,7 +799,8 @@
     "price": 3544,
     "stock": 69,
     "category": "limpieza"
-  }, {
+  },
+  {
     "id": 90,
     "name": "Dried Cranberries",
     "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -718,7 +808,8 @@
     "price": 19293,
     "stock": 42,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 91,
     "name": "Tea - Lemon Green Tea",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -726,7 +817,8 @@
     "price": 15761,
     "stock": 66,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 92,
     "name": "Tomatoes - Diced, Canned",
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -734,7 +826,8 @@
     "price": 14372,
     "stock": 83,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 93,
     "name": "Sauce - Hp",
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -742,7 +835,8 @@
     "price": 1960,
     "stock": 23,
     "category": "panaderia"
-  }, {
+  },
+  {
     "id": 94,
     "name": "Marjoram - Fresh",
     "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -750,7 +844,8 @@
     "price": 14868,
     "stock": 43,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 95,
     "name": "Melon - Watermelon Yellow",
     "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -758,7 +853,8 @@
     "price": 18075,
     "stock": 55,
     "category": "carniceria"
-  }, {
+  },
+  {
     "id": 96,
     "name": "Peppercorns - Pink",
     "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
@@ -766,7 +862,8 @@
     "price": 1338,
     "stock": 80,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 97,
     "name": "Cassis",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -774,7 +871,8 @@
     "price": 16351,
     "stock": 35,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 98,
     "name": "Paper - Brown Paper Mini Cups",
     "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -782,7 +880,8 @@
     "price": 9329,
     "stock": 37,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 99,
     "name": "Bread - Sticks, Thin, Plain",
     "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
@@ -790,7 +889,8 @@
     "price": 16643,
     "stock": 56,
     "category": "perfumeria"
-  }, {
+  },
+  {
     "id": 100,
     "name": "Kahlua",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -798,4 +898,5 @@
     "price": 6757,
     "stock": 75,
     "category": "perfumeria"
-  }]
+  }
+]
