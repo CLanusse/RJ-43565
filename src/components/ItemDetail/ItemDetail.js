@@ -1,9 +1,9 @@
 
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { useCartContext } from "../../context/CartContext"
 import ItemCount from "../ItemCount/ItemCount"
-import Select from "../ItemCount/Select"
-
+// import Select from "../ItemCount/Select"
 
 // const talles = [
 //     {value: 'S', text: 'talle S'},
@@ -11,10 +11,13 @@ import Select from "../ItemCount/Select"
 //     {value: 'L', text: 'talle L'},
 //     {value: 'XL', text: 'talle XL'},
 // ]
+// const [talle, setTalle] = useState(null)
 
 const ItemDetail = ( {id, name, stock, category, image, description, price} ) => {
+
+    const { agregarAlCarrito, isInCart } = useCartContext()
+
     const [cantidad, setCantidad] = useState(1)
-    // const [talle, setTalle] = useState(null)
 
     const navigate = useNavigate()
 
@@ -23,7 +26,7 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
     }
 
     const handleAgregar = () => {
-        console.log({
+        const item = {
             id,
             name,
             stock,
@@ -32,7 +35,9 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
             description,
             price,
             cantidad
-        })
+        }
+
+        agregarAlCarrito(item)
     }
 
 
@@ -46,12 +51,17 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
             <p>Precio: ${price}</p>
 
 
-            <ItemCount 
-                cantidad={cantidad}
-                setCantidad={setCantidad}
-                max={stock}
-                onAdd={handleAgregar}
-            />
+            {
+                !isInCart(id)
+                    ? <ItemCount 
+                            cantidad={cantidad}
+                            setCantidad={setCantidad}
+                            max={stock}
+                            onAdd={handleAgregar}
+                        />
+                    : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+            }
+            
             <hr/>
 
             {/* <Select 
