@@ -1,8 +1,10 @@
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
 import CartWidget from '../CartWidget/CartWidget'
+import { useLoginContext } from '../../context/LoginContext'
 
 export const Navbar = ({bg = '#78ccb0'}) => {
+    const { user, logout } = useLoginContext()
 
     return (
         <header className="header" style={{background: bg}}>
@@ -18,7 +20,10 @@ export const Navbar = ({bg = '#78ccb0'}) => {
                     <Link className="header__link" to="/productos/perfumeria">Perfumeria</Link>
                     <CartWidget />   
                 </nav>
-
+            </div>
+            <div className='header__container'>
+                <p>Bienvenido: {user.email}</p>
+                <button className='btn btn-danger' onClick={logout}>Logout</button>
             </div>
         </header>
     )

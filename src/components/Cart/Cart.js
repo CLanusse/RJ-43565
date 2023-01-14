@@ -6,7 +6,6 @@ const Cart = () => {
 
     const { cart, emptycart, totalCart, removerItem } = useContext(CartContext)
 
-
     return (
         <div className="container my-5">
             <h2>Tu compra</h2>

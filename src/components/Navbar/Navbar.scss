@@ -10,6 +10,12 @@
         justify-content: space-between;
         align-items: center;
 
+        p {
+            margin: 0;
+            color: white;
+            font-weight: 700;
+        }
+
         .header__logo {
             font-size: 52px;
             color: white;

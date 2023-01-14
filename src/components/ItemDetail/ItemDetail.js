@@ -40,7 +40,6 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
         agregarAlCarrito(item)
     }
 
-
     return (
         <div>
             <h2>{name}</h2>
