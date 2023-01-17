@@ -4,7 +4,7 @@ import './LoginScreen.scss'
 
 
 const LoginScreen = () => {
-    const { login, user } = useLoginContext()
+    const { login, user, loading } = useLoginContext()
     
     const [values, setValues] = useState({
         email: '',
@@ -46,7 +46,7 @@ const LoginScreen = () => {
                         name="password"
                     />
                     
-                    <button className='btn btn-primary'>Ingresar</button>
+                    <button className='btn btn-primary' disabled={loading}>{loading ? 'Cargando...' : 'Ingresar'}</button>
                     {user.error && <p className='error'>{user.error}</p>}
                 </form>
             </div>

@@ -22,40 +22,46 @@ export const useLoginContext = () => {
 }
 
 export const LoginProvider = ({children}) => {
+    const [loading, setLoading] = useState(false)
     const [user, setUser] = useState({
-        email: null,
-        logged: false,
+        email: 'profe@coder.com',
+        logged: true,
         error: null
     })
 
-    console.log(user)
 
     const login = (values) => {
-        const match = MOCK_USERS.find(user => user.email === values.email)
+        setLoading(true)
 
-        if (!match) {
-            setUser({
-                email: null,
-                logged: false,
-                error: 'No se encuentra ese usuario'
-            })
+        setTimeout(() => {
+            const match = MOCK_USERS.find(user => user.email === values.email)
 
-            return
-        }
-
-        if (match.password === values.password) {
-            setUser({
-                email: match.email,
-                logged: true,
-                error: null
-            })
-        } else {
-            setUser({
-                email: null,
-                logged: false,
-                error: 'Password inválido'
-            })
-        }
+            if (!match) {
+                setUser({
+                    email: null,
+                    logged: false,
+                    error: 'No se encuentra ese usuario'
+                })
+                setLoading(false)
+                return
+            }
+    
+            if (match.password === values.password) {
+                setUser({
+                    email: match.email,
+                    logged: true,
+                    error: null
+                })
+            } else {
+                setUser({
+                    email: null,
+                    logged: false,
+                    error: 'Password inválido'
+                })
+            }
+            setLoading(false)
+        }, 1500)
+        
     }
 
     const logout = () => {
@@ -67,7 +73,7 @@ export const LoginProvider = ({children}) => {
     }
 
     return (
-        <LoginContext.Provider value={{user, login, logout}}>
+        <LoginContext.Provider value={{user, login, logout, loading}}>
             {children}
         </LoginContext.Provider>
     )

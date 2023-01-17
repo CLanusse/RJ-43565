@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 
 
 const ItemCount = ({cantidad, setCantidad, max, onAdd}) => {
@@ -14,9 +12,23 @@ const ItemCount = ({cantidad, setCantidad, max, onAdd}) => {
 
     return (
         <div>
-            <button onClick={handleRestar} className="btn btn-outline-primary">-</button>
+            <button 
+                onClick={handleRestar} 
+                className={`btn btn-outline-${cantidad > 1 ? 'primary' : 'danger'} ${cantidad === 2 ? 'boton-par' : ''}`}
+                disabled={cantidad === 1}
+            >
+                    -
+            </button>
+
             <span className="mx-3">{cantidad}</span>
-            <button onClick={handleSumar} className="btn btn-primary">+</button>
+
+            <button 
+                onClick={handleSumar} 
+                className={cantidad < max ? 'btn btn-primary' : 'btn btn-danger' }
+                disabled={cantidad === max}
+            >
+                +
+            </button>
             <br/>
             <button className="btn btn-success my-3" onClick={onAdd}>Agregar al carrito</button>
         </div>

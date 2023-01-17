@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { useCartContext } from "../../context/CartContext"
+import UnMemo from "../../ejemplos/UnMemo/UnMemo"
 import ItemCount from "../ItemCount/ItemCount"
 // import Select from "../ItemCount/Select"
 
@@ -48,7 +49,9 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
             <small>Categoría: {category}</small>
             <p>{description}</p>
             <p>Precio: ${price}</p>
+            <UnMemo />
 
+            { stock <= 20 && <h5>Últimas unidades disponibles!</h5> }
 
             {
                 !isInCart(id)
