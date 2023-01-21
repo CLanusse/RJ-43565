@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLoginContext } from '../../context/LoginContext'
-import './LoginScreen.scss'
+import './RegisterScreen.scss'
 
 
-const LoginScreen = () => {
-    const { login, user, loading, googleLogin } = useLoginContext()
+const RegisterScreen = () => {
+    const { user, loading, register } = useLoginContext()
     
     const [values, setValues] = useState({
         email: '',
@@ -22,13 +22,13 @@ const LoginScreen = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         
-        login(values)
+        register(values)
     }
 
     return (
         <div className='login-screen'>
             <div className='login'> 
-                <h2>Login</h2>
+                <h2>Register</h2>
                 <hr/>
 
                 <form onSubmit={handleSubmit}>
@@ -46,16 +46,15 @@ const LoginScreen = () => {
                         onChange={handleInputChange}
                         name="password"
                     />
+
                     
                     <button className='btn btn-primary' disabled={loading}>{loading ? 'Cargando...' : 'Ingresar'}</button>
                     {user.error && <p className='error'>{user.error}</p>}
                 </form>
-                <button className='btn btn-primary my-2' onClick={googleLogin}>Ingresar con google</button>
-                <br/>
-                <Link to="/register">Registrarme</Link>
+                <Link to="/login">Ya estoy registrado</Link>
             </div>
         </div>
     )
 }
 
-export default LoginScreen
+export default RegisterScreen

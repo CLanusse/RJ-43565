@@ -1,19 +1,6 @@
-import { createContext, useContext, useState } from "react";
-
-const MOCK_USERS = [
-    {
-        email: 'profe@coder.com',
-        password: 'admin'
-    },
-    {
-        email: 'tutor@coder.com',
-        password: 'coder'
-    },
-    {
-        email: 'john@doe.com',
-        password: 'coder'
-    },
-]
+import { createContext, useContext, useEffect, useState } from "react";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut, signInWithPopup } from "firebase/auth"
+import { auth, provider } from "../firebase/config"
 
 export const LoginContext = createContext()
 
@@ -24,56 +11,81 @@ export const useLoginContext = () => {
 export const LoginProvider = ({children}) => {
     const [loading, setLoading] = useState(false)
     const [user, setUser] = useState({
-        email: 'profe@coder.com',
-        logged: true,
+        email: null,
+        logged: false,
         error: null
     })
 
+    const googleLogin = () => {
+        signInWithPopup(auth, provider)
+            .catch((error) => {
+                console.log(error)
+                setUser({
+                    email: null,
+                    logged: false,
+                    error: error.message
+                })
+            })  
+    }
 
     const login = (values) => {
         setLoading(true)
 
-        setTimeout(() => {
-            const match = MOCK_USERS.find(user => user.email === values.email)
-
-            if (!match) {
+        signInWithEmailAndPassword(auth, values.email, values.password)
+            .catch((error) => {
+                console.log(error)
                 setUser({
                     email: null,
                     logged: false,
-                    error: 'No se encuentra ese usuario'
+                    error: error.message
                 })
-                setLoading(false)
-                return
-            }
-    
-            if (match.password === values.password) {
+            })
+            .finally(() => setLoading(false))
+    }
+
+    const logout = () => {
+        signOut(auth)
+            .then(() => {
                 setUser({
-                    email: match.email,
+                    email: null,
+                    logged: false,
+                    error: null
+                })
+            })
+        
+    }
+
+    const register = (values) => {
+        setLoading(true)
+
+        createUserWithEmailAndPassword(auth, values.email, values.password)
+            .catch((error) => {
+                console.log(error)
+                setUser({
+                    email: null,
+                    logged: false,
+                    error: error.message
+                })
+            })
+            .finally(() => setLoading(false))
+    }
+
+    useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                setUser({
+                    email: user.email,
                     logged: true,
                     error: null
                 })
             } else {
-                setUser({
-                    email: null,
-                    logged: false,
-                    error: 'Password inválido'
-                })
+                logout()
             }
-            setLoading(false)
-        }, 1500)
-        
-    }
-
-    const logout = () => {
-        setUser({
-            email: null,
-            logged: false,
-            error: null
         })
-    }
+    }, []) 
 
     return (
-        <LoginContext.Provider value={{user, login, logout, loading}}>
+        <LoginContext.Provider value={{googleLogin, user, login, logout, loading, register}}>
             {children}
         </LoginContext.Provider>
     )
