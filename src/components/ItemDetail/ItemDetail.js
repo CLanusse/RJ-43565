@@ -2,17 +2,8 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { useCartContext } from "../../context/CartContext"
-import UnMemo from "../../ejemplos/UnMemo/UnMemo"
 import ItemCount from "../ItemCount/ItemCount"
-// import Select from "../ItemCount/Select"
 
-// const talles = [
-//     {value: 'S', text: 'talle S'},
-//     {value: 'M', text: 'talle M'},
-//     {value: 'L', text: 'talle L'},
-//     {value: 'XL', text: 'talle XL'},
-// ]
-// const [talle, setTalle] = useState(null)
 
 const ItemDetail = ( {id, name, stock, category, image, description, price} ) => {
 
@@ -44,12 +35,11 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
     return (
         <div>
             <h2>{name}</h2>
-            <img src={image}/>
+            <img src={image} alt=""/>
             <br/>
             <small>Categoría: {category}</small>
             <p>{description}</p>
             <p>Precio: ${price}</p>
-            <UnMemo />
 
             { stock <= 20 && <h5>Últimas unidades disponibles!</h5> }
 
