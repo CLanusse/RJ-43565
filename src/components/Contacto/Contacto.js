@@ -1,24 +1,17 @@
 import { useState } from "react"
+import useForm from "../../hooks/useForm"
 
 
 
 const Contacto = () => {
-    const [values, setValues] = useState({
+    const { values, handleInputChange } = useForm({
         nombre: '',
         email: '',
         cel: ''
     })
 
-    const handleInputChange = (e) => {
-        setValues({
-            ...values,
-            [e.target.name]: e.target.value
-        })
-    }
- 
     const handleSubmit = (e) => {
         e.preventDefault()
-
         console.log("Submit", values)
     }
 

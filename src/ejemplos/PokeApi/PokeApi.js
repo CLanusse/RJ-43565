@@ -5,6 +5,7 @@
 // url:  https://www.coderhouse.com/api/alumnos
 
 import { useEffect, useState } from "react"
+import useFetch from "../../hooks/useFetch"
 
 // query params
 // GET: id = number
@@ -21,8 +22,9 @@ import { useEffect, useState } from "react"
 
 const PokeApi = () => {
 
-    const [pokemon, setPokemon] = useState(null)
     const [id, setId] = useState(1)
+
+    const { data } = useFetch(`https://pokeapi.co/api/v2/pokemon/${id}`, [id])
 
     const handleSiguiente = () => {
         setId(id + 1)
@@ -34,25 +36,16 @@ const PokeApi = () => {
         }
     }
 
-    useEffect(() => {
-        fetch(`https://pokeapi.co/api/v2/pokemon/${id}`) 
-            .then((resp) => resp.json())
-            .then((data) => {
-                setPokemon(data)
-            })
-            .catch((err) => console.log(err))
-    }, [id])
-
     return (
         <div className="container my-5">
             <h2>PokeApi</h2>
             <hr/>
 
             {
-                pokemon &&
+                data &&
                 <div>
-                    <h3>{pokemon.name}</h3>
-                    <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
+                    <h3>{data.name}</h3>
+                    <img src={data.sprites.front_default} alt={data.name}/>
                 </div>
             }
 

@@ -18,6 +18,7 @@ export const Navbar = ({bg = '#78ccb0'}) => {
                     <Link className="header__link" to="/productos/carniceria">Carniceria</Link>
                     <Link className="header__link" to="/productos/panaderia">Panaderia</Link>
                     <Link className="header__link" to="/productos/perfumeria">Perfumeria</Link>
+                    <Link className="header__link" to="/contacto">Contacto</Link>
                     <CartWidget />
                 </nav>
             </div>

@@ -1,23 +1,17 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLoginContext } from '../../context/LoginContext'
+import useForm from '../../hooks/useForm'
 import './LoginScreen.scss'
 
 
 const LoginScreen = () => {
     const { login, user, loading, googleLogin } = useLoginContext()
     
-    const [values, setValues] = useState({
+    const { values, handleInputChange } = useForm({
         email: '',
         password: ''
     })
-
-    const handleInputChange = (e) => {
-        setValues({
-            ...values,
-            [e.target.name]: e.target.value
-        })
-    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
